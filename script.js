@@ -13,7 +13,7 @@ var price = document.getElementById("price");
 yellowSwatch.addEventListener("mouseover", function() {
   console.log("Yellow");
   image.src = "imgs/spiderposter4.jpg";
-  price.innerHTML = "$74.99";
+  price.innerHTML = "$24.99";
   price.style.color = "green";
   price.innerHTML += " (Sale)";
 });
@@ -26,7 +26,7 @@ yellowSwatch.addEventListener("mouseleave", function() {
 // Add an event listener to the blue swatch that shows the blue image and updates the price when the swatch is hovered over
 blueSwatch.addEventListener("mouseover", function() {
   image.src = "imgs/spiderposter3.jpg";
-  price.innerHTML = "$89.99";
+  price.innerHTML = "$39.99";
   price.style.color = "black";
 });
 
@@ -38,7 +38,7 @@ blueSwatch.addEventListener("mouseleave", function() {
 // Add an event listener to the red swatch that shows the red image and updates the price when the swatch is hovered over
 redSwatch.addEventListener("mouseover", function() {
   image.src = "imgs/spiderposter2.jpg";
-  price.innerHTML = "$49.99";
+  price.innerHTML = "$19.99";
   price.style.color = "red";
   price.innerHTML += " (Clearance)";
 });
@@ -52,9 +52,9 @@ whiteSwatch.addEventListener("mouseleave", function() {
 
 whiteSwatch.addEventListener("mouseover", function() {
   image.src = "imgs/spiderposter1.jpg";
-  price.innerHTML = "$49.99";
-  price.style.color = "red";
-  price.innerHTML += " (Clearance)";
+  price.innerHTML = "$27.99";
+  price.style.color = "green";
+  price.innerHTML += " (Sale)";
 });
 
 // Add an event listener to the red swatch that resets the price when the swatch is not hovered over
@@ -66,7 +66,7 @@ greenSwatch.addEventListener("mouseleave", function() {
 
 greenSwatch.addEventListener("mouseover", function() {
   image.src = "imgs/spiderposter5.jpg";
-  price.innerHTML = "$49.99";
-  price.style.color = "green";
+  price.innerHTML = "$14.99";
+  price.style.color = "red";
   price.innerHTML += " (Clearance)";
 });
